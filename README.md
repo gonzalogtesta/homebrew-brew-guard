@@ -7,16 +7,19 @@ the main repo.
 
 ## Status
 
-There is no release yet, so there is no formula to install. The formula goes in
-`Formula/` when the first release is tagged. Until then, `templates/` has the
-draft.
+The formula installs brew-guard v0.2.0, built from source. It is new and I have
+not tested the whole install path yet. `templates/` has the draft that new
+versions are made from.
 
-## Install (after the first release)
+## Install
 
 ```
 brew tap gonzalogtesta/brew-guard
 brew install brew-guard
 ```
+
+Do this with the real `brew`, before you put the brew-guard link in your
+`PATH`: brew-guard's own wrapper refuses `user/tap/name`.
 
 ## Before you install
 
@@ -30,8 +33,10 @@ short file: `Formula/brew-guard.rb`. It should only:
 
 If you see anything else, don't install it and open an issue.
 
-You can also compare the `sha256` in the formula with the checksum published in
-the release of the main repo.
+The `sha256` is the one of the source archive GitHub makes for the tag. The
+release of the main repo publishes checksums of the binaries, not of this
+archive, so they won't match. You can download the archive yourself and run
+`shasum -a 256` on it.
 
 ## Note
 
