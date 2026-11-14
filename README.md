@@ -7,7 +7,7 @@ the main repo.
 
 ## Status
 
-The formula installs brew-guard v0.2.0, built from source. It is new and I have
+The formula installs brew-guard v0.3.0, built from source. It is new and I have
 not tested the whole install path yet. `templates/` has the draft that new
 versions are made from.
 
