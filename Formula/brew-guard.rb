@@ -1,8 +1,8 @@
 class BrewGuard < Formula
   desc "Security and privacy policy layer for Homebrew"
   homepage "https://github.com/gonzalogtesta/brew-guard"
-  url "https://github.com/gonzalogtesta/brew-guard/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "3d680834607d9ae26c692f73ad7a5a5520e8e65c16f56ac8910b765a16d2ffe4"
+  url "https://github.com/gonzalogtesta/brew-guard/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "3ff9128e40bbf566486e8b237c935a5bfa295c6bbc894572af13a28ead03db51"
   license "MIT"
 
   depends_on "go" => :build
