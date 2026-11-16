@@ -44,6 +44,11 @@ This is a third party tap. brew-guard's own rules treat third party taps with
 care: you review the code before installing, and a version younger than 12 days
 is held back by default.
 
+## Contributing and security
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md). Everyone
+follows the [code of conduct](CODE_OF_CONDUCT.md).
+
 ## Licence
 
 MIT
